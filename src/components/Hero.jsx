@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 import "../App.css";
 import floatingImage from "../assets/img/mee.jpeg"; 
 
@@ -25,6 +25,7 @@ function Hero() {
       </div>
 
       <img src={floatingImage} alt="Floating Graphic" className="floating-image" />
+
     </div>
   );
 }
