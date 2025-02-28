@@ -1,36 +1,31 @@
 import React from "react";
-import { Link } from "react-router-dom"; 
-import mo from "../assets/img/meee.jpg";
+import { Link } from "react-router-dom";
 import "../App.css";
+import floatingImage from "../assets/img/mee.jpeg"; 
 
 function Hero() {
   return (
-    <div className="landing-page">
-      <div className="sidebar">
-        <h1>PORTFOLIO</h1>
-        <div className="info">
-          <h2>
-            MY NAME IS <span>ZEINAB</span>
-          </h2>
-          <p className="role">I'M A GRAPHIC DESIGNER</p>
-        </div>
-      </div>
-
-      <div className="main-content">
-        <nav className="hero-nav">
+    <div className="hero-container">
+      <header className="header">
+        <nav className="navbar">
+          <span className="logo">My Portfolio</span>
           <ul className="nav-links">
-            <li><a href="/">HOME</a></li>
-            <li><Link to="/about">ABOUT</Link></li> 
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#works">WORKS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><Link to="/about">About</Link></li> 
+            <li><a href="#works">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
+      </header>
 
-        <div className="content">
-          <img src={mo} alt="Profile" className="profile-img" />
-        </div>
+      <div className="hero-section">
+        <h1 className="hero-text">
+          “Designing the Future, <br /> One Pixel at a Time”
+        </h1>
       </div>
+
+      <img src={floatingImage} alt="Floating Graphic" className="floating-image" />
+
     </div>
   );
 }
