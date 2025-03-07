@@ -1,21 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import pic from "../assets/img/mee.jpeg";
 import "../App.css";
+import Navbar from "./navbar";
 
 const AboutMe = () => {
   return (
     <div className="aboutme-container">
       <header className="header">
-        <nav className="navbar">
-          <span className="logo">My Portfolio</span>
-          <ul className="nav-links">
-            <li><Link to="/">Home</Link></li> 
-            <li><Link to="/about">About</Link></li> 
-            <li><Link to="/projects">Projects</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-          </ul>
-        </nav>
+        <Navbar />
       </header>
 
       <div className="aboutme-section">
@@ -33,7 +25,7 @@ const AboutMe = () => {
               to become a skilled graphic designer.
             </p>
             <p className="sub-text">
-              My projects combines cultural, artistic, and professional elements. It features 
+              My projects combine cultural, artistic, and professional elements. They feature 
               vibrant festive decorations and creative portraits blending nature with human 
               elements.
             </p>
