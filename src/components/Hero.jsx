@@ -2,20 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../App.css";
 import floatingImage from "../assets/img/mee.jpeg"; 
+import Navbar from "./navbar";
 
 function Hero() {
   return (
     <div className="hero-container">
       <header className="header">
-        <nav className="navbar">
-          <span className="logo">My Portfolio</span>
-          <ul className="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><Link to="/about">About</Link></li> 
-            <li><a href="#works">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <Navbar />
       </header>
 
       <div className="hero-section">
