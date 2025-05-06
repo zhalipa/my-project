@@ -1,14 +1,16 @@
 .contact-section {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), 
-
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+  
   }
   
   .contact-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10 15px;
+    margin-top: 40px;
+    
 
   }
   
