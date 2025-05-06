@@ -625,6 +625,7 @@ body, html {
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), 
 }
 
 .projects-title {
@@ -723,8 +724,8 @@ body, html {
 }
 
 .tech-tag {
-  background-color: #3498db;
-  color: white;
+  background-color: #BCC4CF;
+  color: #333;
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
   font-size: 0.8rem;
